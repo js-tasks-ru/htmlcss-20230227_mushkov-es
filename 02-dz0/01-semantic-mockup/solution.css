@@ -1,0 +1,91 @@
+/* сбрасываю все элементы и псевдоэлементы на box-sizing: border-box:border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  background-color: red;
+}
+.header-title {
+  color: white;
+}
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+nav a:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+nav a {
+  font: 20px/1.5 serif;
+  color: white;
+}
+main {
+  padding: 10px 5px 15px 5px;
+  background-color: green;
+}
+
+article {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-color: blue;
+}
+
+article:first-child {
+  margin-bottom: 5px;
+}
+.article-title {
+  margin: 0 0 10px 10px;
+  color: white;
+}
+
+ul[class],
+ol[class] {
+  margin-left: 35px;
+  color: white;
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.footer-header {
+  color: white;
+}
