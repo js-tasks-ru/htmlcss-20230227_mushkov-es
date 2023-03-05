@@ -1,0 +1,9 @@
+.main {
+  width: 1440px;
+  padding: 68 165 92 165;
+  background: '#FFFFFF';
+}
+
+.main__cards__container {
+  margin-bottom: 64px;
+}

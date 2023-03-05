@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 71px;
+  background: #e5e5e5;
+}
+
+.footer__title {
+  font: 500 38px Inter;
+  color: black;
+}
+
+.footer__text {
+  font: 400 16px/24px Inter;
+  text-align: center;
+  color: #212429;
+}
