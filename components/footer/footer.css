@@ -1,15 +1,19 @@
 .footer {
-  padding-top: 71px;
-  background: #e5e5e5;
+  height: 300px;
+  padding: 71px 0 0;
+  background: var(--white);
+  text-align: center;
 }
 
 .footer__title {
-  font: 500 38px Inter;
-  color: black;
+  margin-bottom: 32px;
+  font: 500 normal 38px/1.25 Inter-Bold;
+  color: var(--black);
 }
 
 .footer__text {
-  font: 400 16px/24px Inter;
-  text-align: center;
-  color: #212429;
+  width: 640px;
+  margin: 0 auto;
+  font: 400 normal 16px/1.5 Inter-Medium;
+  color: var(--black);
 }
