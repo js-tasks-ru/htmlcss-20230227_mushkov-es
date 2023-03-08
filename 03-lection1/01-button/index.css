@@ -1,0 +1,73 @@
+.button-primary {
+  --primaty-color: var(--blue);
+  min-width: 182px;
+  height: 48px;
+  background: var(--primaty-color);
+  border: none;
+  border-radius: 8px;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button-primary-hovered:hover {
+  --primary-color: #2342c0;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.button-primary-disabled:disabled {
+  opacity: 0.5;
+}
+
+.button-primary__text {
+  font: normal 500 16px/1.2 Roboto;
+  color: var(--white);
+}
+
+.button-secondary {
+  --primaty-color: var(--purple);
+  min-width: 182px;
+  height: 48px;
+  background: var(--primaty-color);
+  border: none;
+  border-radius: 8px;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button-secondary-hovered:hover {
+  --primary-color: #5028c6;
+  background: var(--primary-color);
+  cursor: pointer;
+}
+
+.button-secondary-disabled:disabled {
+  opacity: 0.5;
+}
+
+.button-secondary__text {
+  font: normal 500 16px/1.2 Roboto;
+  color: var(--white);
+}
+
+.button-alternate {
+  --primaty-color: var(--white);
+  min-width: 182px;
+  height: 48px;
+  background: var(--primaty-color);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button-alternate-hovered:hover {
+  border: 1px solid var(--black);
+  cursor: pointer;
+}
+
+.button-alternate-disabled:disabled {
+  opacity: 0.5;
+}
+
+.button-alternate__text {
+  font: normal 500 16px/1.2 Roboto;
+  color: var(--grey-4);
+}
