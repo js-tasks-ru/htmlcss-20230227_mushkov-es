@@ -1,5 +1,4 @@
 .footer {
-  height: 300px;
   padding: 71px 0 0;
   background: var(--white);
   text-align: center;
@@ -12,7 +11,7 @@
 }
 
 .footer__text {
-  width: 640px;
+  max-width: 640px;
   margin: 0 auto;
   font: 400 normal 16px/1.5 Inter-Medium;
   color: var(--black);
