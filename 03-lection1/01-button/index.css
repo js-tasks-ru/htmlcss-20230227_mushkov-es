@@ -1,73 +1,46 @@
-.button-primary {
-  --primaty-color: var(--blue);
+.button {
   min-width: 182px;
-  height: 48px;
-  background: var(--primaty-color);
-  border: none;
+  padding: 15px 0 14px 0;
   border-radius: 8px;
   transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
 }
-
-.button-primary-hovered:hover {
-  --primary-color: #2342c0;
-  background: var(--primary-color);
-  cursor: pointer;
-}
-
-.button-primary-disabled:disabled {
+.button:disabled {
   opacity: 0.5;
+  pointer-events: none;
 }
 
-.button-primary__text {
-  font: normal 500 16px/1.2 Roboto;
+.button_primary {
+  background: var(--primary);
+  border-color: var(--primary);
   color: var(--white);
 }
 
-.button-secondary {
-  --primaty-color: var(--purple);
-  min-width: 182px;
-  height: 48px;
-  background: var(--primaty-color);
-  border: none;
-  border-radius: 8px;
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button-secondary-hovered:hover {
-  --primary-color: #5028c6;
-  background: var(--primary-color);
+.button_primary:hover {
+  background: #2342c0;
   cursor: pointer;
 }
 
-.button-secondary-disabled:disabled {
-  opacity: 0.5;
-}
-
-.button-secondary__text {
-  font: normal 500 16px/1.2 Roboto;
+.button_secondary {
+  background: var(--secondary);
+  border-color: var(--secondary);
   color: var(--white);
 }
 
-.button-alternate {
-  --primaty-color: var(--white);
-  min-width: 182px;
-  height: 48px;
-  background: var(--primaty-color);
+.button_secondary:hover {
+  background: #5028c6;
+  cursor: pointer;
+}
+
+.button_alternate {
   border: 1px solid var(--grey-3);
-  border-radius: 8px;
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button-alternate-hovered:hover {
-  border: 1px solid var(--black);
-  cursor: pointer;
-}
-
-.button-alternate-disabled:disabled {
-  opacity: 0.5;
-}
-
-.button-alternate__text {
-  font: normal 500 16px/1.2 Roboto;
+  background: var(--white);
   color: var(--grey-4);
+}
+
+.button_alternate:hover {
+  border: 1px solid var(--black);
 }
