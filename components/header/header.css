@@ -1,0 +1,9 @@
+.header {
+  padding: 96px 0 77px;
+  background: var(--white);
+}
+
+.header__title {
+  font: 500 normal 50px/1.25 Inter-Bold;
+  color: var(--black);
+}
