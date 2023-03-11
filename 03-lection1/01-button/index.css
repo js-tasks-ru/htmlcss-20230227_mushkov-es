@@ -1,6 +1,5 @@
 .button {
-  min-width: 182px;
-  padding: 15px 0 14px 0;
+  padding: 15px 14px;
   border-radius: 8px;
   transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
   font-size: 16px;
