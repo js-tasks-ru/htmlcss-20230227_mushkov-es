@@ -1,4 +1,10 @@
 .content {
-  height: 300px;
   background: #f9fafc;
+}
+
+.content__preview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
 }

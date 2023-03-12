@@ -6,6 +6,7 @@
 @import '../../components/header/header.css';
 @import '../../components/content/content.css';
 @import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
 
 :root {
   --white: #ffffff;
@@ -28,4 +29,9 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
 }
