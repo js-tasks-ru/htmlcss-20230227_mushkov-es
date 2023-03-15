@@ -1,8 +1,7 @@
 .sceleton {
-  max-width: 579px;
   display: flex;
   flex-direction: column;
-  padding: 24px 0 32px 24px;
+  padding: 24px 40px 32px 24px;
   background: var(--white);
   border: 1px solid var(--grey-3);
   border-radius: 8px;
@@ -17,7 +16,6 @@
 .sceleton__header-item-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 .sceleton__avatar {
   width: 64px;
@@ -42,7 +40,7 @@
   width: 172px;
 }
 .sceleton__item_size-m {
-  width: 257px;
+  width: 150%;
 }
 .sceleton__item_size-l {
   max-width: 475px;
@@ -51,6 +49,6 @@
   max-width: 515px;
 }
 
-.sceleton > .sceleton__item:last-child {
+.sceleton__item:last-child {
   margin-top: 8px;
 }
