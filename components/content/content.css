@@ -8,3 +8,14 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+
+.content__preview-custom-form-elements {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 56px;
+}
+
+.content__form-elements {
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 12px;
+}
