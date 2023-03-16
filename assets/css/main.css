@@ -7,7 +7,8 @@
 @import '../../components/content/content.css';
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
-
+@import '../../components/main-section/main-section.css';
+@import '../../components/side-bar/side-bar.css';
 :root {
   --white: #ffffff;
   --black: #212429;
