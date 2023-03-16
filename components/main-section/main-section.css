@@ -1,9 +1,0 @@
-.main-section {
-  display: block;
-}
-
-.main-section__content {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-row-gap: 56px;
-}

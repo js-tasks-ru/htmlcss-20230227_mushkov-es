@@ -16,3 +16,7 @@
   font: 400 normal 16px/1.5 Inter-Medium;
   color: var(--black);
 }
+
+.footer_custom-from-elements {
+  background: #e5e5e5;
+}
