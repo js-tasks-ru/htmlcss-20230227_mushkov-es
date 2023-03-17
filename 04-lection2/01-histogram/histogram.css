@@ -1,5 +1,4 @@
 .histogram {
-  height: 185px;
   display: flex;
   padding: 16px 24px 24px;
   flex-direction: column;
@@ -21,6 +20,7 @@
 }
 
 .histogram__value {
+  margin-bottom: 39px;
   flex-grow: 1;
   font: normal 400 20px/1.2 'Inter-Medium';
 }
