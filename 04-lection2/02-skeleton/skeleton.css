@@ -16,6 +16,7 @@
 .sceleton__header-item-container {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 .sceleton__avatar {
   width: 64px;
@@ -37,16 +38,16 @@
 }
 
 .sceleton__item_size-s {
-  width: 172px;
+  width: 70%;
 }
 .sceleton__item_size-m {
-  width: 150%;
+  width: 75%;
 }
 .sceleton__item_size-l {
-  max-width: 475px;
+  max-width: 85%;
 }
 .sceleton__item_size-xl {
-  max-width: 515px;
+  max-width: 95%;
 }
 
 .sceleton__item:last-child {
