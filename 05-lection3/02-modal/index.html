@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../../03-lection1/01-button/index.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="modal" id="modal">
+      <div class="modal__wrapper">
+        <div class="container">
+          <div class="modal__form-wrapper">
+            <svg class="modal__close-icon" id="modal-close">
+              <use href="../../assets/images/sprite.svg#cross"></use>
+            </svg>
+            <form>
+              <label for="name" class="modal__label">NAME</label>
+              <input
+                class="modal__input"
+                id="name"
+                type="text"
+                name="text"
+                placeholder="Placeholder"
+              />
+              <label for="email" class="modal__label">EMAIL</label>
+              <input
+                class="modal__input"
+                id="email"
+                type="text"
+                name="text"
+                placeholder="Placeholder"
+              />
+              <button class="button button_primary modal__submit-btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="button button_primary" id="modal-open">Open modal</button>
+  </body>
+  <script src="./index.js"></script>
 </html>
