@@ -20,7 +20,7 @@
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
-
+  --primary-lighten: #a0b1f5;
   --error: var(--red);
   --success: var(--blue);
 
