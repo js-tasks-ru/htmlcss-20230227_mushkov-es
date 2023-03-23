@@ -1,13 +1,12 @@
 .calendar {
-  box-sizing: content-box;
   width: 100%;
-  max-width: 300px;
-  padding: 28px 26px;
+  max-width: 304px;
+  padding: 28px 26px 32px;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-row-gap: 20px;
+  grid-row-gap: 24px;
 }
 
 .calendar__title {
@@ -40,7 +39,7 @@
 
 .calendar__item_day {
   align-items: start;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   color: var(--grey-3);
 }
