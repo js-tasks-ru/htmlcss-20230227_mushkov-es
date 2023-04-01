@@ -35,3 +35,10 @@
   right: 15px;
   top: 15px;
 }
+
+.modal_open-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
