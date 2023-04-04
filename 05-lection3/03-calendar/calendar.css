@@ -6,7 +6,9 @@
   border-radius: 8px;
   display: grid;
   grid-template-rows: auto 1fr;
+
   grid-row-gap: 24px;
+
 }
 
 .calendar__title {
