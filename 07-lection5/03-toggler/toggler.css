@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.toggle {
+  display: inline-block;
+  position: relative;
+}
+
+.toggle__label {
+  font: normal 400 16px/1.5 'Inter';
+}
+.toggle__input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.toggle__state {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.toggle__control {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 52px;
+  height: 28px;
+  border: 1px solid #dde2e5;
+  border-radius: 16px;
+  padding: 0 2px 0 2px;
+  cursor: pointer;
+}
+
+.toggle__indicator {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--grey-2);
+  left: 0;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+  border: 1px solid var(--blue);
+  background: var(--blue);
+  justify-content: flex-end;
+}
+.toggle__input:checked ~ .toggle__state .toggle__indicator {
+  background: var(--white);
+}
