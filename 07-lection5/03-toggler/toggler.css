@@ -40,7 +40,7 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: var(--grey-2);
+  background: var(--grey-3);
   left: 0;
 }
 
@@ -51,4 +51,8 @@
 }
 .toggle__input:checked ~ .toggle__state .toggle__indicator {
   background: var(--white);
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+  background: var(--grey-2);
 }
