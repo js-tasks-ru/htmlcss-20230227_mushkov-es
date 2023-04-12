@@ -1,0 +1,95 @@
+.input {
+  display: flex;
+  gap: 35px;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.input__wrapper {
+  position: relative;
+}
+
+.input__label {
+  display: block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.input__control {
+  width: 350px;
+  border: 1px solid #dde2e5;
+  border-radius: 8px;
+  padding: 17px 20px 13px 24px;
+}
+
+.input__control:focus {
+  border-color: var(--blue);
+}
+
+.input__control::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.input__icon {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 90%;
+}
+.input_success ~ svg {
+  display: block;
+}
+.input_error {
+  border-color: red;
+}
+.input_error ~ svg {
+  display: block;
+}
+
+.input__dropdown-wrapper {
+  position: relative;
+}
+.input__dropdown-wrapper:hover label {
+  display: block;
+}
+
+input[type='radio'] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+input[type='radio'] + label {
+  display: none;
+}
+
+input[type='radio'] + label:hover {
+  background: slategray;
+}
+input[type='radio']:checked + label {
+  display: block;
+}
+
+.input__select-placeholder {
+  width: 350px;
+  border: 1px solid #dde2e5;
+  border-radius: 8px;
+  padding: 17px 20px 13px 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.input_icon-select {
+  display: block;
+}
