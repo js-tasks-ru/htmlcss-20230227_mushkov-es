@@ -8,7 +8,6 @@
   grid-template-rows: auto 1fr;
 
   grid-row-gap: 24px;
-
 }
 
 .calendar__title {
@@ -54,4 +53,16 @@
 .calendar__item_between-active {
   background: var(--primary-lighten);
   color: var(--white);
+}
+
+.calendar__title_main-page {
+  font-size: 14px;
+}
+.calendar__item_main-page {
+  font-size: 9px;
+}
+
+.calendar_main-page {
+  max-width: 200px;
+  padding-bottom: 0;
 }

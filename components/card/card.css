@@ -1,7 +1,31 @@
 .card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-basis: 350px;
   height: 367px;
   background: var(--white);
   box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
   border-radius: 12px;
+}
+
+.card__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__footer h4 {
+  font: 500 normal 21px/1.2 'Roboto';
+}
+.card__footer p {
+  font: 400 normal 16px/1.2 'Roboto';
+  margin-top: 6px;
 }

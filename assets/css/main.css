@@ -1,13 +1,17 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
-
+@import '../../components/tabs/tabs.css';
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/header/header.css';
 @import '../../components/content/content.css';
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
-@import '../../components/main-section/main-section.css';
+@import '../../05-lection3/01-tooltip/tooltip.css';
+@import '../../05-lection3/03-calendar/calendar.css';
+@import '../../05-lection3/02-modal/modal.css';
+@import '../../04-lection2/01-histogram/histogram.css';
+@import '../../06-lection4/01-avatar/avatar.css';
 @import '../../components/side-bar/side-bar.css';
 :root {
   --white: #ffffff;
