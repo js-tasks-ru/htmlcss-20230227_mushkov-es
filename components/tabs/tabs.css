@@ -1,4 +1,16 @@
-.tabs input {
+.tabs .tabs__all-components {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.tabs .tabs__elements {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.tabs .tabs__containers {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+.tabs .tabs__templates {
   position: absolute;
   clip: rect(0, 0, 0, 0);
 }
@@ -9,7 +21,7 @@
   display: flex;
   gap: 40px;
 }
-.tabs__scroller label {
+.tabs__scroller .tabs__title {
   font: 400 normal 16px/1.4 'Inter';
   cursor: pointer;
 }
@@ -30,12 +42,12 @@
   position: relative;
 }
 
-.tabs__label-wrapper label {
+.tabs__label-wrapper .tabs__title {
   color: var(--grey-3);
   transition: color 250ms ease-in-out;
 }
 
-.tabs__label-wrapper label::after {
+.tabs__label-wrapper .tabs__title::after {
   content: '';
   display: block;
   position: absolute;
@@ -50,49 +62,49 @@
 .tabs__all-components:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:first-child
-  label {
+  .tabs__title {
   color: black;
 }
 .tabs__elements:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(2)
-  label {
+  .tabs__title {
   color: black;
 }
 .tabs__containers:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(3)
-  label {
+  .tabs__title {
   color: black;
 }
 .tabs__templates:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(4)
-  label {
+  .tabs__title {
   color: black;
 }
 
 .tabs__all-components:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:first-child
-  label::after {
+  .tabs__title::after {
   transform: scaleX(1);
 }
 .tabs__elements:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(2)
-  label::after {
+  .tabs__title::after {
   transform: scaleX(1);
 }
 .tabs__containers:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(3)
-  label::after {
+  .tabs__title::after {
   transform: scaleX(1);
 }
 .tabs__templates:checked
   ~ .tabs__scroller
   .tabs__label-wrapper:nth-child(4)
-  label::after {
+  .tabs__title::after {
   transform: scaleX(1);
 }

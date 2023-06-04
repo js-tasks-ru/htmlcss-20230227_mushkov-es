@@ -22,10 +22,10 @@
   align-items: center;
 }
 
-.card__footer h4 {
+.card__footer-title {
   font: 500 normal 21px/1.2 'Roboto';
 }
-.card__footer p {
+.card__footer-type {
   font: 400 normal 16px/1.2 'Roboto';
   margin-top: 6px;
 }
