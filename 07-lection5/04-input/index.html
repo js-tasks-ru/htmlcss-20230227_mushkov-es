@@ -6,25 +6,29 @@
     <link rel="stylesheet" href="./input.css" />
   </head>
   <body>
-    <div class="input">
+    <div class="input-label">
+      <label for="input-label" class="input__label">LABEL</label>
       <div class="input__wrapper">
-        <label for="input-label" class="input__label">LABEL</label>
         <input
           id="input-label"
           class="input__control"
           placeholder="Placeholder"
         />
       </div>
+    </div>
+    <div class="input-focus">
+      <label for="input-focus" class="input__label">FOCUS</label>
       <div class="input__wrapper">
-        <label for="input-focus" class="input__label">FOCUS</label>
         <input
           id="input-focus"
           class="input__control"
           placeholder="Filled input"
         />
       </div>
+    </div>
+    <div class="input-success">
+      <label for="input-success" class="input__label">SUCCESS</label>
       <div class="input__wrapper">
-        <label for="input-success" class="input__label">SUCCESS</label>
         <input
           id="input-success"
           class="input__control input_success"
@@ -34,8 +38,10 @@
           <use href="../../assets/images/sprite.svg#success"></use>
         </svg>
       </div>
+    </div>
+    <div class="input-error">
+      <label for="input-error" class="input__label">ERROR</label>
       <div class="input__wrapper">
-        <label for="input-error" class="input__label">ERROR</label>
         <input
           id="input-error"
           class="input__control input_error"
@@ -43,46 +49,6 @@
         />
         <svg class="input__icon">
           <use href="../../assets/images/sprite.svg#error"></use>
-        </svg>
-      </div>
-      <div class="input__dropdown-wrapper">
-        <p class="input__label">SELECT</p>
-        <div>
-          <input
-            id="option-1"
-            class="input__select"
-            type="radio"
-            name="dropdown"
-            checked
-          />
-          <label class="input__select-placeholder" for="option-1"
-            >Dropdown</label
-          >
-        </div>
-        <div>
-          <input
-            id="option-2"
-            class="input__select"
-            type="radio"
-            name="dropdown"
-          />
-          <label class="input__select-placeholder" for="option-2"
-            >Dropdown-1</label
-          >
-        </div>
-        <div>
-          <input
-            id="option-3"
-            class="input__select"
-            type="radio"
-            name="dropdown"
-          />
-          <label class="input__select-placeholder" for="option-3"
-            >Dropdown-2</label
-          >
-        </div>
-        <svg class="input__icon input_icon-select">
-          <use href="../../assets/images/sprite.svg#chevron"></use>
         </svg>
       </div>
     </div>
