@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../../03-lection1/01-button/index.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="modal" id="modal">
+      <div class="modal__wrapper">
+        <svg class="modal__close-icon" id="modal-close">
+          <use href="../../assets/images/sprite.svg#cross"></use>
+        </svg>
+        <h3 class="modal__title">Modal title</h3>
+
+        <p class="modal__description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+          duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet.
+        </p>
+      </div>
+    </div>
+
+    <button class="button button_primary" id="modal-open">Open modal</button>
+  </body>
+  <script src="./index.js"></script>
 </html>
